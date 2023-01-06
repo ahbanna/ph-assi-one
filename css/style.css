@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* slider-area css starts */
+.slider-area {
+  background-image: url(../img/banner/banner3.png);
+  min-height: 788px;
+  width: 1600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider-content {
+  text-align: right;
+  padding: 160px 160px 0 0;
+}
+.slider-heading {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+}
+.slider-content p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+.slider-content .btn,
+.call-area .btn,
+.footer-subscribe .btn {
+  color: 005FAC;
+  background: #fff;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500px;
+  border-radius: 7px;
+  color: #005fac;
+  font-weight: 700;
+}
+.slider-content .btn:hover {
+  background: #000000;
+  color: #fff;
+}
+/* slider-area css end */
+
+/* Previous-area css starts */
+.previous-area {
+  display: flex;
+  padding: 120px 170px;
+}
+.previous-area-content {
+  margin-left: 100px;
+  padding: 240px 0 0 0;
+}
+.section-title h3 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  margin: 0;
+}
+.previous-area-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.check-mark-content {
+  display: flex;
+  margin-bottom: 8px;
+}
+.check-mark-content img {
+  height: 20px;
+  width: 20px;
+}
+.check-mark-content p {
+  margin: -2px 10px;
+  line-height: 26px;
+}
+/* Previous-area css end */
+
+/* Plan-area css starts */
+.plan-area {
+  padding: 20px 170px 120px 170px;
+}
+.plan-area .section-title h3 {
+  text-align: center;
+}
+.all-plan {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.single-plan {
+  text-align: center;
+}
+.single-plan-title h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 15px 0 5px 0;
+  color: #151414;
+}
+.single-plan-text {
+  color: #737272;
+  margin-top: -5px;
+}
+/* Plan-area css end */
+
+/* call-area css starts */
+.call-area {
+  margin: 20px 170px 120px 170px;
+  background-image: linear-gradient(
+      45deg,
+      rgb(2, 95, 170),
+      rgba(10, 50, 100, 0.01)
+    ),
+    url(../img/watch.png);
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.call-area-content {
+  padding: 45px;
+}
+.call-area .section-title h3 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+.call-area-content a:hover {
+  background: #000;
+  color: #fff;
+}
+/* call-area css end */
+
+/*working-area css starts*/
+.working-area {
+  background: #f6f6f6;
+  padding: 120px 170px;
+}
+.working-area .section-title {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.all-work {
+  display: flex;
+  justify-content: space-between;
+}
+.single-work {
+  background: #fff;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.single-work:hover {
+  background: #005fac;
+}
+.work-content a {
+  font-size: 36px;
+  font-weight: 700;
+  color: #282828;
+  text-decoration: none;
+  padding: 60px 45px;
+  display: block;
+}
+.work-content:hover a {
+  color: #fff;
+}
+/*working-area css end*/
+
+/* Footer-area css starts */
+.footer-area {
+  background: #151414;
+  padding: 120px 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content h3 {
+  font-size: 35px;
+  color: #fff;
+  margin: 0;
+}
+.footer-content p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-social {
+  display: flex;
+}
+.single-social {
+  margin-right: 20px;
+}
+.footer-subscribe h4 {
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+}
+.footer-email {
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+.footer-email input {
+  width: 250px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  height: 40px;
+  background: transparent;
+  color: #fff;
+  float: left;
+  padding-left: 15px;
+}
+.footer-btn .btn {
+  background: #005fac;
+  color: #fff;
+}
+.footer-btn:hover a {
+  background: #fff;
+  color: #000;
+}
+/* Footer-area css end */
