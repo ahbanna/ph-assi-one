@@ -6,7 +6,7 @@ body {
 
 /* slider-area css starts */
 .slider-area {
-  background-image: url(../img/banner/banner3.png);
+  background-image: url(../images/banner/banner3.png);
   min-height: 788px;
   width: 1600px;
   background-size: cover;
@@ -115,7 +115,7 @@ body {
       rgb(2, 95, 170),
       rgba(10, 50, 100, 0.01)
     ),
-    url(../img/watch.png);
+    url(../images/watch.png);
   height: 260px;
   background-repeat: no-repeat;
   background-size: cover;
