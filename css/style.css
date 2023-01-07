@@ -8,7 +8,7 @@ body {
 .slider-area {
   background-image: url(../images/banner/banner3.png);
   min-height: 788px;
-  width: 1600px;
+  width: 1580px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -68,7 +68,6 @@ body {
   line-height: 26px;
   color: #444343;
 }
-
 .check-mark-content i {
   color: #16d887;
   margin-right: 15px;
