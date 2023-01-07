@@ -68,17 +68,14 @@ body {
   line-height: 26px;
   color: #444343;
 }
-.check-mark-content {
-  display: flex;
-  margin-bottom: 8px;
-}
-.check-mark-content img {
-  height: 20px;
-  width: 20px;
+
+.check-mark-content i {
+  color: #16d887;
+  margin-right: 15px;
 }
 .check-mark-content p {
-  margin: -2px 10px;
-  line-height: 26px;
+  margin: 0;
+  line-height: 33px;
 }
 /* Previous-area css end */
 
